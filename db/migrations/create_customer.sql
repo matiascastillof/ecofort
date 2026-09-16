@@ -1,0 +1,6 @@
+CREATE TABLE customers(
+    id SERIAL PRIMARY KEY,
+    email VARCHAR(150) NOT NULL UNIQUE,
+    full_name VARCHAR(150) NOT NULL,
+    city VARCHAR(150) NOT NULL
+);
