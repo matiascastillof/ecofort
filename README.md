@@ -2,7 +2,7 @@
 
 Aplicación full-stack para gestionar pedidos, clientes, productos y reportes de ventas.
 
-## Stack
+## Stack Tecnologicos utilizados
 
 - Backend: Node.js + Express + TypeScript
 - Base de datos: PostgreSQL
@@ -23,35 +23,36 @@ Aplicación full-stack para gestionar pedidos, clientes, productos y reportes de
 
 ## Instalación
 
-1. Clona el proyecto.
-2. Levanta la base de datos:
+1. Clona el proyecto, debes entrar a esta URL: https://github.com/matiascastillof/ecofort/tree/master y seleccionar en boton Code y seleccionar Download ZIP y deberas descargarlo, extraerlo en tu escritorio y ejecutarlo con VSCode.
+2. Descargar el archivo con la data y agregarlos en la carpeta: DB -> seed para poder hacer funcionar la base de datos y todo el proyecto
+3. Levanta la base de datos:
 
 ```bash
 docker compose up -d
 ```
 
-3. Instala dependencias del backend:
+4. Instala dependencias del backend:
 
 ```bash
 cd api
 npm install
 ```
 
-4. Instala dependencias del frontend:
+5. Instala dependencias del frontend:
 
 ```bash
 cd ../web
 npm install
 ```
 
-5. Inicia la API:
+6. Inicia la API:
 
 ```bash
 cd ../api
 npm start
 ```
 
-6. Inicia el cliente:
+7. Inicia el cliente:
 
 ```bash
 cd ../web
@@ -95,4 +96,4 @@ La base de datos se carga con scripts ubicados en `db/ingest` y se usa PostgreSQ
 
 ## Estado
 
-Proyecto preparado para pruebas técnicas con API REST + frontend interactivo.
+Proyecto preparado para pruebas técnicas con API REST + frontend interactivo sin mayor redundancia en la parte visual de este proyecto.
